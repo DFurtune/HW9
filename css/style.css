@@ -70,8 +70,8 @@ section .anonce {
   border-radius: 4px;
   margin-left: 11%;
   margin-top: 7%;
-  background: url(/img/chelsea.svg) left 98% top 32% no-repeat,
-    url(/img/arsenal.svg) left 76% top 32% no-repeat, #ffffff;
+  background: url(../img/chelsea.svg) left 98% top 32% no-repeat,
+    url(../img/arsenal.svg) left 76% top 32% no-repeat, #ffffff;
 }
 .time {
   width: 99.71px;
@@ -250,7 +250,7 @@ label {
   position: absolute;
   width: 1440px;
   height: 716px;
-  background: url(/img/bubles.svg) left top #ffffff;
+  background: url(../img/bubles.svg) left top #ffffff;
 }
 .first-text-get-start {
   position: absolute;
@@ -307,7 +307,7 @@ label {
 }
 .features {
   position: absolute;
-  background: url(/img/bg-features.svg);
+  background: url(../img/bg-features.svg);
   width: 1440px;
   height: 716px;
   margin-top: 716px;
@@ -426,7 +426,7 @@ label {
 .get-up {
   width: 1440px;
   height: 483px;
-  background: url(/img/Frame\ 2.svg) no-repeat;
+  background: url(../img/Frame\ 2.svg) no-repeat;
 }
 .get-up span {
   width: 554px;
