@@ -1,0 +1,486 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width: 320px;
+  position: relative;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+header {
+  width: 1440px;
+  height: 665px;
+  background: #f4f6f9;
+}
+header .smartphones {
+  position: absolute;
+  width: 993px;
+  height: 668px;
+  margin-left: 448px;
+}
+header .logo {
+  width: 99px;
+  height: 32px;
+  margin-left: 11%;
+  margin-top: 5%;
+}
+header h1 {
+  width: 546px;
+  height: 96px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.03em;
+  color: #333333;
+  margin-left: 11%;
+  margin-top: 8%;
+}
+header p {
+  width: 453px;
+  height: 52px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #4f4f4f;
+  margin-left: 11%;
+  margin-top: 2%;
+}
+header .apple {
+  margin-left: 11%;
+  margin-top: 2%;
+}
+header .google {
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.first-section {
+  width: 1440px;
+  height: 592px;
+  background: url(../img/bg-ronaldo.svg) no-repeat;
+  padding: 0;
+}
+section .anonce {
+  position: absolute;
+  width: 360px;
+  height: 218.06px;
+  box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin-left: 11%;
+  margin-top: 7%;
+  background: url(/img/chelsea.svg) left 98% top 32% no-repeat,
+    url(/img/arsenal.svg) left 76% top 32% no-repeat, #ffffff;
+}
+.time {
+  width: 99.71px;
+  height: 23.06px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
+  color: #4f4f4f;
+  margin-left: 4%;
+  margin-top: 7%;
+}
+.teams {
+  width: 76.62px;
+  height: 50.32px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.event {
+  width: 123.85px;
+  height: 25.16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.bottom {
+  width: 360px;
+  height: 49.27px;
+  background: #eeeeee;
+  border-radius: 0px 0px 4px 4px;
+  margin: auto;
+  display: flex;
+}
+.bottom p {
+  width: 250.85px;
+  height: 25.16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.8812px;
+  line-height: 25px;
+  color: #4f4f4f;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.ellipse {
+  width: 20.99px;
+  height: 20.97px;
+  background: #ffffff;
+  box-shadow: 0px 2.09791px 2.09791px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 3%;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+label {
+  margin-left: 5%;
+  margin-top: 2%;
+}
+.arsenal {
+  position: absolute;
+  display: flex;
+}
+.video {
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 20%;
+  box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+.descript {
+  position: absolute;
+  width: 100%;
+}
+.wid {
+  width: 582px;
+  height: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+  margin-left: 55%;
+  margin-top: 8%;
+}
+.head {
+  width: 426px;
+  height: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-left: 55%;
+  margin-top: 2%;
+}
+.text {
+  width: 407px;
+  height: 185px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+  margin-left: 55%;
+  margin-top: 2%;
+}
+.descript a {
+  width: 582px;
+  height: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+  margin-left: 55%;
+  margin-top: 2%;
+}
+.get-start {
+  position: absolute;
+  width: 1440px;
+  height: 716px;
+  background: url(/img/bubles.svg) left top #ffffff;
+}
+.first-text-get-start {
+  position: absolute;
+  width: 118px;
+  height: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+  margin-left: 11%;
+  margin-top: 15%;
+}
+.title-get-start {
+  position: absolute;
+  width: 297px;
+  height: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-left: 11%;
+  margin-top: 18%;
+}
+.other-text-get-start {
+  position: absolute;
+  width: 480px;
+  height: 139px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+  margin-left: 11%;
+  margin-top: 22%;
+}
+.link-get-start {
+  position: absolute;
+  width: 582px;
+  height: 22px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+  margin-left: 11%;
+  margin-top: 35%;
+}
+.phone {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 58.5%;
+}
+.features {
+  position: absolute;
+  background: url(/img/bg-features.svg);
+  width: 1440px;
+  height: 716px;
+  margin-top: 716px;
+}
+.head-feat {
+  margin-left: 32%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-top: 76px;
+}
+.wrapper {
+  overflow: hidden;
+  width: 1440px;
+}
+.column {
+  width: 311px;
+  height: 166px;
+  margin-left: 8%;
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+/*****************************/
+
+.users-say {
+  position: absolute;
+  width: 1440px;
+  height: 431px;
+  background: #ffffff;
+  margin-top: 1432px;
+}
+.users-say-head {
+  display: flex;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  justify-content: center;
+  margin-top: 4%;
+}
+.users {
+  display: flex;
+}
+.user-box {
+  max-width: 309px;
+  min-height: 161px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background: #ffffff;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-right: 36px;
+  display: inline;
+}
+
+.user-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name img {
+  float: left;
+}
+.user-name span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  padding-left: 10px;
+  display: inline-block;
+  padding-top: 5px;
+}
+.boxnone {
+  border: none;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+.we-have {
+  width: 1440px;
+  height: 278px;
+  background: #fafafa;
+  margin-top: 1882px;
+}
+.we-have-featured {
+  width: 320px;
+  height: 37px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-left: 38%;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 58px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+.get-up {
+  width: 1440px;
+  height: 483px;
+  background: url(/img/Frame\ 2.svg) no-repeat;
+}
+.get-up span {
+  width: 554px;
+  height: 37px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-left: 51%;
+}
+.get-up p {
+  width: 535px;
+  height: 125px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #4f4f4f;
+  margin-left: 51%;
+  margin-top: 3%;
+}
+.apple-end {
+  margin-left: 51%;
+  margin-top: 3%;
+}
+footer {
+  width: 1440px;
+  height: 127px;
+  background: #00adee;
+  display: flex;
+}
+footer .logo-end {
+  width: 99px;
+  height: 32px;
+  margin-left: 11%;
+  margin-top: 3.5%;
+}
+footer .links {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.links li {
+  display: inline;
+  margin-right: 37px;
+}
+.links {
+  margin-left: 19%;
+  margin-top: 3.5%;
+}
+.icons {
+  margin-left: 18%;
+  margin-top: 3.5%;
+}
