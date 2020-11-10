@@ -1,0 +1,95 @@
+@media only screen and (max-width: 360px) {
+  header {
+    width: 100%;
+    height: 100%;
+    background: #f4f6f9;
+    text-align: center;
+  }
+  header .logo {
+    margin-left: 0;
+  }
+  .head-logo span {
+    width: 71px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #5282f0;
+  }
+  header h1 {
+    width: 88.88%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: #333333;
+    margin-top: 16.38%;
+  }
+  header p {
+    width: 88.88%;
+    height: 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.25;
+    color: #4f4f4f;
+    margin-top: 6.28%;
+  }
+  header .apple {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 59px;
+  }
+
+  header .google {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 59px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .first-section {
+    width: 100%;
+    background: url(../img/bg-ronaldo.svg) no-repeat bottom;
+    padding: 0;
+    text-align: center;
+  }
+  .wid {
+    width: 40.41%;
+    height: 22px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+    margin-left: 55%;
+    margin-top: 8%;
+  }
+  .head {
+    width: 29.58%;
+    height: 37px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-left: 55%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: block;
+  }
+  .text {
+    width: 28.26%;
+    height: 185px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    margin-left: 55%;
+    margin-top: 2%;
+    display: block;
+  }
+}

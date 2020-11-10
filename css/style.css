@@ -1,36 +1,35 @@
 body {
   margin: 0px;
   padding: 0px;
-  min-width: 320px;
-  position: relative;
+  min-width: 360px;
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
 }
 header {
-  width: 1440px;
-  height: 665px;
-  background: #f4f6f9;
-}
-header .smartphones {
-  position: absolute;
-  width: 993px;
-  height: 668px;
-  margin-left: 448px;
+  width: 100%;
+  height: 100%;
+  background: #f4f6f9 url(../img/HeaderFrame.png) no-repeat right top;
 }
 header .logo {
-  width: 99px;
-  height: 32px;
   margin-left: 11%;
   margin-top: 5%;
 }
+.head-logo span {
+  width: 71px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #5282f0;
+}
 header h1 {
-  width: 546px;
-  height: 96px;
+  width: 37.91%;
+  height: 14.43%;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 48px;
-  display: flex;
+  line-height: 1.25;
+  display: block;
   align-items: flex-end;
   letter-spacing: 0.03em;
   color: #333333;
@@ -38,26 +37,34 @@ header h1 {
   margin-top: 8%;
 }
 header p {
-  width: 453px;
-  height: 52px;
+  width: 31.45%;
+  height: 7.81%;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 1.25;
   color: #4f4f4f;
   margin-left: 11%;
   margin-top: 2%;
+  display: block;
 }
+
 header .apple {
   margin-left: 11%;
   margin-top: 2%;
+  display: inline-block;
+  margin-bottom: 16%;
 }
+
 header .google {
   margin-left: 2%;
   margin-top: 2%;
+  display: inline-block;
+  margin-bottom: 16%;
 }
+
 .first-section {
-  width: 1440px;
+  width: 100%;
   height: 592px;
   background: url(../img/bg-ronaldo.svg) no-repeat;
   padding: 0;
@@ -203,7 +210,7 @@ label {
   width: 100%;
 }
 .wid {
-  width: 582px;
+  width: 40.41%;
   height: 22px;
   font-style: normal;
   font-weight: bold;
@@ -214,7 +221,7 @@ label {
   margin-top: 8%;
 }
 .head {
-  width: 426px;
+  width: 29.58%;
   height: 37px;
   font-style: normal;
   font-weight: bold;
@@ -223,9 +230,11 @@ label {
   color: #333333;
   margin-left: 55%;
   margin-top: 2%;
+  margin-bottom: 5%;
+  display: block;
 }
 .text {
-  width: 407px;
+  width: 28.26%;
   height: 185px;
   font-style: normal;
   font-weight: normal;
@@ -234,7 +243,9 @@ label {
   color: #4f4f4f;
   margin-left: 55%;
   margin-top: 2%;
+  display: block;
 }
+
 .descript a {
   width: 582px;
   height: 22px;
@@ -248,7 +259,7 @@ label {
 }
 .get-start {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 716px;
   background: url(../img/bubles.svg) left top #ffffff;
 }
@@ -278,7 +289,7 @@ label {
 }
 .other-text-get-start {
   position: absolute;
-  width: 480px;
+  width: 33.33%;
   height: 139px;
   font-style: normal;
   font-weight: normal;
@@ -290,7 +301,7 @@ label {
 }
 .link-get-start {
   position: absolute;
-  width: 582px;
+  width: 40.41%;
   height: 22px;
   font-style: normal;
   font-weight: bold;
@@ -308,10 +319,11 @@ label {
 .features {
   position: absolute;
   background: url(../img/bg-features.svg);
-  width: 1440px;
+  width: 100%;
   height: 716px;
   margin-top: 716px;
 }
+
 .head-feat {
   margin-left: 32%;
   font-style: normal;
@@ -321,30 +333,34 @@ label {
   color: #ffffff;
   margin-top: 76px;
 }
+
 .wrapper {
   overflow: hidden;
-  width: 1440px;
+  width: 76.96%;
+  margin-left: 11.43%;
+  display: table;
 }
+
 .column {
-  width: 311px;
+  width: 25%;
   height: 166px;
-  margin-left: 8%;
-  display: inline-block;
+  margin-right: 8%;
+  display: inline-table;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 23px;
   color: #ffffff;
 }
-/*****************************/
 
 .users-say {
   position: absolute;
-  width: 1440px;
+  width: 100%;
   height: 431px;
   background: #ffffff;
   margin-top: 1432px;
 }
+
 .users-say-head {
   display: flex;
   font-style: normal;
@@ -360,7 +376,6 @@ label {
 }
 .user-box {
   max-width: 309px;
-  min-height: 161px;
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 20px;
@@ -368,7 +383,7 @@ label {
   border: 1px solid #828282;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-right: 36px;
+  margin-right: 2.5%;
   display: inline;
 }
 
@@ -399,13 +414,15 @@ label {
   margin-top: 47px;
 }
 .we-have {
-  width: 1440px;
+  width: 100%;
   height: 278px;
   background: #fafafa;
   margin-top: 1882px;
+  padding-top: 57px;
+  text-align: center;
 }
 .we-have-featured {
-  width: 320px;
+  width: 22.22%;
   height: 37px;
   font-family: Lato;
   font-style: normal;
@@ -413,7 +430,6 @@ label {
   font-size: 28px;
   line-height: 37px;
   color: #333333;
-  margin-left: 38%;
 }
 .labels {
   display: flex;
@@ -424,12 +440,13 @@ label {
   margin-right: 12%;
 }
 .get-up {
-  width: 1440px;
-  height: 483px;
+  width: 100%;
+  height: 378px;
+  padding-top: 105px;
   background: url(../img/Frame\ 2.svg) no-repeat;
 }
 .get-up span {
-  width: 554px;
+  width: 38.47%;
   height: 37px;
   font-style: normal;
   font-weight: bold;
@@ -439,7 +456,7 @@ label {
   margin-left: 51%;
 }
 .get-up p {
-  width: 535px;
+  width: 37.15%;
   height: 125px;
   font-style: normal;
   font-weight: normal;
@@ -454,15 +471,24 @@ label {
   margin-top: 3%;
 }
 footer {
-  width: 1440px;
+  width: 100%;
   height: 127px;
   background: #00adee;
   display: flex;
 }
 footer .logo-end {
-  width: 99px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
   margin-left: 11%;
+  margin-top: 3.5%;
+}
+footer span {
+  width: 4.93%;
+  height: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
   margin-top: 3.5%;
 }
 footer .links {
